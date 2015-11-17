@@ -9,4 +9,7 @@ object Application extends Controller {
     Ok(views.html.Index())
   }
   
+  def chef = Action {
+    Ok("11111")
+  }
 }
